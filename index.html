@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="x-icon" href="assets/resume icon.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResumeMate - Your Online resume builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  <!-- Hero Page -->
+  <div id="hero_container">
+    <header>
+      <div class="logo">
+        <h1>Resume<span>Mate</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">CV</a></li>
+          <li><a href="#">Cover Letter</a></li>
+          <li><a href="#">Career Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Resume and Cover Letter Builders</h1>
+      <p>Create your perfect resume for free in no time!</p>
+      <button id="buildBtn">Build My Resume</button>
+
+      <div class="resume-preview">
+        <img src="assets/resume.jpg" alt="Resume Preview 1">
+        <img class="resume2" src="assets/resume2.png" alt="Resume Preview 2">
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>Resume<span>Mate</span></h2>
+          <p>&copy; 2023-2024 Resume Mate. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="#"><img src="assets/twitter (1).png" alt="Twitter"></a>
+            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Resume</h4>
+            <ul>
+              <li><a href="#">Resume Builder</a></li>
+              <li><a href="#">Resume Templates</a></li>
+              <li><a href="#">Resume Examples</a></li>
+              <li><a href="#">How to Write a Resume</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>CV</h4>
+            <ul>
+              <li><a href="#">CV Builder</a></li>
+              <li><a href="#">CV Templates</a></li>
+              <li><a href="#">CV Examples</a></li>
+              <li><a href="#">How to Write a CV</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Cover Letter</h4>
+            <ul>
+              <li><a href="#">Cover Letter Builder</a></li>
+              <li><a href="#">Cover Letter Templates</a></li>
+              <li><a href="#">Cover Letter Examples</a></li>
+              <li><a href="#">How to Write a Cover Letter</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Help Center</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--Foam Page -->
+  <div id="form-Section">
+    <marquee behavior="loop" direction="right" width="100%" class="marquee">Enter Your Information here!</marquee>
+    <div class="foam-container">
+    <form id="form">
+      <div id="form_group">
+        <!--**********************Personal Info Section-----------------------  -->
+        <h2 class="section_type">Personal Information</h2>
+        <br>
+        <label class="label" for="person_name">Name</label>
+        <input class="input" type="text" id="person_name" placeholder="Enter Your Name">
+      </div>
+      <br>
+
+      <div id="form_group">
+        <label class="label" for="jobtital">Jobtitle</label>
+        <input class="input" type="text" id="jobtital"
+          placeholder="Example: Front-End / Back-End or Full Stak Developer?">
+      </div>
+      <br>
+
+      <div id="form_group">
+
+        <label class="label" for="age">Age</label>
+        <input class="input" type="text" id="age" placeholder="Enter Your Age">
+      </div>
+      <br>
+
+      <div id="form_group">
+        <label class="label" for="email">Email</label>
+        <input class="input" type="text" id="email" placeholder="Enter Your Email">
+      </div>
+      <br>
+
+      <div id="form_group">
+        <label class="label" for="phone">Phone</label>
+        <input class="input" type="text" id="phone" placeholder="Enter Your Phone">
+      </div>
+      <br>
+
+      <div id="form_group">
+        <label class="label" for="address">Address</label>
+        <input class="input" type="text" id="address" placeholder="Enter Your Address">
+      </div>
+      <br>
+
+      <div id="form_group">
+        <label class="label" for="pic">Profile Picture</label>
+        <input class="input" type="file" id="pic" autocomplete="off">
+      </div>
+      <br>
+      <hr>
+      <br>
+
+      <!--**********************Education Section-----------------------  -->
+      <h2 class="section_type">Education Section</h2>
+      <div>
+        <div id="form_group">
+
+          <label class="label" for="degree">Degree</label>
+          <input class="input" type="text" id="degree" placeholder="Example: Matric/Inter/Becholar/Master/Diploma?">
+
+        </div>
+        <br>
+        <div id="form_group">
+
+          <label class="label" for="institute">Institute Name</label>
+          <input class="input" type="text" id="institute" placeholder="Example: Univercity Name/School Name?">
+
+        </div>
+        <br>
+
+        <div id="form_group">
+
+          <label class="label" for="city">City</label>
+          <input class="input" type="text" id="city" placeholder="Example: Lahore/Karachi/Islamabad Other?">
+
+        </div>
+        <br>
+        <div id="form_group">
+
+          <label class="label" for="city">Passing Year</label>
+          <input class="input" type="text" id="year" placeholder="Example:2000 / 2005 / 1990?">
+
+        </div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <!--**********************Skills Section-----------------------  -->
+      <h2 class="section_type">Skills Section</h2>
+
+      <div>
+        <div id="form_group">
+
+          <label class="label" for="skill_1">1:</label>
+          <input class="input" type="text" id="skill_1" placeholder="Enter Your Skill">
+
+        </div>
+        <br>
+        <div id="form_group">
+
+          <label class="label" for="skill_2">2:</label>
+          <input class="input" type="text" id="skill_2" placeholder="Enter Your Skill">
+
+        </div>
+        <br>
+        <div id="form_group">
+
+          <label class="label" for="skill_3">3:</label>
+          <input class="input" type="text" id="skill_3" placeholder="Enter Your Skill">
+
+        </div>
+        <br>
+
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <!--**********************Experiance Section-----------------------  -->
+      <h2 class="section_type">Experiance Section</h2>
+      <div id="form_group">
+
+        <label class="label" for="company_1">Company:1</label>
+        <input class="input" type="text" id="company_1" placeholder="Enter Company Name">
+
+      </div>
+
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="position_1">Position OR Job Detail:</label>
+        <input class="input" type="text" id="position_1" placeholder="Enter Position Or Designation">
+
+      </div>
+
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="duration_1">Duration:</label>
+        <input class="input" type="text" id="duration_1" placeholder="Example : 2000 to 2005 or 5 Years">
+
+      </div>
+
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="company_2">Company:2</label>
+        <input class="input" type="text" id="company_2" placeholder="Enter Company Name">
+
+      </div>
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="position_2">Position OR Job Detail:</label>
+        <input class="input" type="text" id="position_2"
+          placeholder="Example: Engneer/Designer or You Can Enter Here about Job Detail ">
+
+      </div>
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="duration_2">Duration:</label>
+        <input class="input" type="text" id="duration_2" placeholder="Example : 2000 to 2005 or 5 Years">
+
+      </div>
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="company_3">Company:3</label>
+        <input class="input" type="text" id="company_3" placeholder="Enter Company Name">
+
+      </div>
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="position_3">Position OR Job Detail:</label>
+        <input class="input" type="text" id="position_3" placeholder="Enter Position Or Designation">
+
+      </div>
+      <br>
+      <div id="form_group">
+
+        <label class="label" for="duration_3">Duration:</label>
+        <input class="input" type="text" id="duration_3" placeholder="Example : 2000 to 2005 or 5 Years">
+
+      </div>
+      <button>
+        <span  id="submit_button">Submit</span>
+      </button>
+    </form>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
